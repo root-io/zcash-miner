@@ -33,7 +33,7 @@ RUN git clone https://github.com/zcash/zcash.git /srv/zcash
 
 WORKDIR /srv/zcash
 
-RUN git checkout v1.0.2
+RUN git checkout v1.0.3
 
 RUN ./zcutil/fetch-params.sh
 
