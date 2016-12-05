@@ -1,4 +1,4 @@
-# ZCash miner AWS Docker swarm cluster
+# ZCash miner
 
 Check out the [rootio/zcash-miner](https://hub.docker.com/r/rootio/zcash-miner/) repository on Docker Hub.
 
