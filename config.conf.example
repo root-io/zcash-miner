@@ -1,4 +1,4 @@
-AWS_AMI="ami-0d77397e"
+AWS_AMI="ami-d8f4deab"
 AWS_VPC_ID="vpc-xxxxxxxx"
 AWS_INSTANCE_TYPE="m3.large"
 AWS_DEFAULT_REGION="eu-west-1"
