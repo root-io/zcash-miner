@@ -40,7 +40,6 @@ aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol 
 aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol tcp --port 2377 --cidr 0.0.0.0/0
 aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol tcp --port 7946 --cidr 0.0.0.0/0
 aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol udp --port 7946 --cidr 0.0.0.0/0
-aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol tcp --port 4789 --cidr 0.0.0.0/0
 aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol udp --port 4789 --cidr 0.0.0.0/0
 # Miner port
 aws ec2 authorize-security-group-ingress --group-name "minerCluster" --protocol tcp --port 8233 --cidr 0.0.0.0/0
